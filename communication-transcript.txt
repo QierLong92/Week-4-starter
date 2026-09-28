@@ -180,3 +180,31 @@ Disabled the Stack transition animation globally. Bottom-navigation page changes
 User
 ----
 update these communication messages into the communication-transcript.txt please
+
+User
+----
+Use the react-leaflet for preview map according to the json data. Users are able to browse the preview map.
+
+Assistant
+---------
+Implemented the interactive preview map using react-leaflet on web, driven by each trail’s OSM JSON geometry.
+
+Users can pan and zoom the map; it renders the actual route polyline and start marker. A WebView Leaflet equivalent supports the same interaction on iOS/Android.
+
+Validated with lint, typecheck, Android export, and web export.
+
+User
+----
+fix the safe area for android device: Currently the top of the screen is covered by andoird device top bar (time, notification, batteries...).
+
+Assistant
+---------
+Fixed Android safe-area handling across Explore, Saved, Profile, and Trail Details.
+
+The app now uses SafeAreaProvider and Android-aware SafeAreaView components, so headers are inset below the system status bar instead of being covered by time, notification, and battery indicators.
+
+Lint, typecheck, and Android export pass.
+
+User
+----
+update these communication messages into the communication-transcript.txt please
