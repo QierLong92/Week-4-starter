@@ -1,0 +1,28 @@
+{
+  "type": "way",
+  "id": 352524292,
+  "bounds": {
+    "minlat": 40.1753173,
+    "minlon": -83.0459355,
+    "maxlat": 40.1753582,
+    "maxlon": -83.0451769
+  },
+  "geometry": [
+    {
+      "lat": 40.1753173,
+      "lon": -83.0459355
+    },
+    {
+      "lat": 40.1753582,
+      "lon": -83.0451769
+    }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "heritage": "yes",
+    "highway": "path",
+    "layer": "1",
+    "wikidata": "Q7986123",
+    "wikipedia": "en:West Orange Road-Thomas Bridge"
+  }
+}

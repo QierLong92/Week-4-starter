@@ -1,0 +1,163 @@
+{
+  "generated_at": "2026-09-28T14:13:52Z",
+  "search": {
+    "center": {
+      "latitude": 42.2808,
+      "longitude": -83.743
+    },
+    "radius_km": 250
+  },
+  "track_count": 4,
+  "tracks": [
+    {
+      "osm_type": "way",
+      "osm_id": 139929540,
+      "name": "New Richmond Swing Bridge",
+      "wikidata": "Q7011192",
+      "highway": "footway",
+      "route": "hiking",
+      "latitude": 42.6514365,
+      "longitude": -86.106755,
+      "osm_url": "https://www.openstreetmap.org/way/139929540",
+      "distance_km": 0.11,
+      "elevation_gain_m": 11,
+      "estimated_hiking_time_hours": 0.04,
+      "difficulty": "easy",
+      "difficulty_basis": "calculated from distance/elevation",
+      "description": "bridge in United States of America",
+      "description_source": "Wikidata",
+      "commons_image": {
+        "title": "File:New Richmond Swing Bridge.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/New_Richmond_Swing_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "width": 3665,
+        "height": 2062,
+        "source": "Wikidata P18"
+      },
+      "image_path": "traildata/imgs/New-Richmond-Swing-Bridge-way-139929540.jpg"
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 242747227,
+      "name": "Brookside Park Bridge",
+      "wikidata": "Q122226885",
+      "highway": "footway",
+      "route": "hiking",
+      "latitude": 41.4488755,
+      "longitude": -81.7172264,
+      "osm_url": "https://www.openstreetmap.org/way/242747227",
+      "distance_km": 0.03,
+      "elevation_gain_m": 0,
+      "estimated_hiking_time_hours": 0.01,
+      "difficulty": "easy",
+      "difficulty_basis": "calculated from distance/elevation",
+      "description": "Historic pedestrian bridge spanning Big Creek in Cleveland Metroparks, Cleveland, Ohio.",
+      "description_source": "Dataset enrichment",
+      "commons_image": {
+        "title": "File:General view of bridge. - Brookside Park Bridge, Spanning Big Creek and Cleveland Metroparks, Cleveland, Cuyahoga County, OH HAER OHIO,18-CLEV,26-5.tif",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/General_view_of_bridge._-_Brookside_Park_Bridge%2C_Spanning_Big_Creek_and_Cleveland_Metroparks%2C_Cleveland%2C_Cuyahoga_County%2C_OH_HAER_OHIO%2C18-CLEV%2C26-5.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/tiff",
+        "width": 5000,
+        "height": 4074,
+        "source": "Wikidata P18"
+      },
+      "image_path": "traildata/imgs/Brookside-Park-Bridge-way-242747227.png"
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 327331027,
+      "name": "McKeown Road Bridge",
+      "wikidata": "Q112225406",
+      "highway": "path",
+      "route": "hiking",
+      "latitude": 42.6156837,
+      "longitude": -85.2363275,
+      "osm_url": "https://www.openstreetmap.org/way/327331027",
+      "distance_km": 0.04,
+      "elevation_gain_m": 0,
+      "estimated_hiking_time_hours": 0.01,
+      "difficulty": "easy",
+      "difficulty_basis": "calculated from distance/elevation",
+      "description": "Wood-deck pedestrian bridge in Barry County, Michigan, suitable for foot traffic.",
+      "description_source": "Dataset enrichment",
+      "commons_image": {
+        "title": "File:McKeown Road Bridge.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/McKeown_Road_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "width": 6631,
+        "height": 2916,
+        "source": "Wikidata P18"
+      },
+      "image_path": "traildata/imgs/McKeown-Road-Bridge-way-327331027.jpg"
+    },
+    {
+      "osm_type": "way",
+      "osm_id": 352524292,
+      "name": "West Orange Road-Thomas Bridge",
+      "wikidata": "Q7986123",
+      "highway": "path",
+      "route": "hiking",
+      "latitude": 40.1753378,
+      "longitude": -83.0455562,
+      "osm_url": "https://www.openstreetmap.org/way/352524292",
+      "distance_km": 0.06,
+      "elevation_gain_m": 0,
+      "estimated_hiking_time_hours": 0.01,
+      "difficulty": "easy",
+      "difficulty_basis": "calculated from distance/elevation",
+      "description": "bridge in United States of America",
+      "description_source": "Wikidata",
+      "commons_image": {
+        "title": "File:West Orange Road-Thomas Bridge.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/West_Orange_Road-Thomas_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "mime": "image/jpeg",
+        "width": 3872,
+        "height": 2592,
+        "source": "Wikidata P18"
+      },
+      "image_path": "traildata/imgs/West-Orange-Road-Thomas-Bridge-way-352524292.jpg"
+    }
+  ],
+  "image_download": {
+    "input": "traildata/track.json",
+    "downloaded_count": 4,
+    "skipped_count": 0,
+    "failed_count": 0,
+    "images": [
+      {
+        "name": "New Richmond Swing Bridge",
+        "osm_type": "way",
+        "osm_id": 139929540,
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/New_Richmond_Swing_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "local_path": "traildata/imgs/New-Richmond-Swing-Bridge-way-139929540.jpg",
+        "status": "downloaded"
+      },
+      {
+        "name": "Brookside Park Bridge",
+        "osm_type": "way",
+        "osm_id": 242747227,
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/General_view_of_bridge._-_Brookside_Park_Bridge%2C_Spanning_Big_Creek_and_Cleveland_Metroparks%2C_Cleveland%2C_Cuyahoga_County%2C_OH_HAER_OHIO%2C18-CLEV%2C26-5.tif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "local_path": "traildata/imgs/Brookside-Park-Bridge-way-242747227.png",
+        "status": "downloaded"
+      },
+      {
+        "name": "McKeown Road Bridge",
+        "osm_type": "way",
+        "osm_id": 327331027,
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/McKeown_Road_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "local_path": "traildata/imgs/McKeown-Road-Bridge-way-327331027.jpg",
+        "status": "downloaded"
+      },
+      {
+        "name": "West Orange Road-Thomas Bridge",
+        "osm_type": "way",
+        "osm_id": 352524292,
+        "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/West_Orange_Road-Thomas_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "local_path": "traildata/imgs/West-Orange-Road-Thomas-Bridge-way-352524292.jpg",
+        "status": "downloaded"
+      }
+    ],
+    "skipped": [],
+    "failed": []
+  }
+}

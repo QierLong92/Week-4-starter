@@ -1,7 +1,29 @@
+// Derived directly from traildata/track.json and the corresponding OSM way files.
+// Images are bundled locally so trail cards work without a network connection.
 export const trails = [
-  { id: 'cedar-ridge', name: 'Cedar Ridge Loop', difficulty: 'Moderate', distance: '5.2 mi', elevation: '780 ft', time: '2h 45m', image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=85', description: 'A wooded loop with a rewarding ridge overlook. Listen for woodpeckers as the trail winds through tall cedar and open meadows.', coords: { latitude: 44.279, longitude: -83.978 } },
-  { id: 'willow-creek', name: 'Willow Creek Path', difficulty: 'Easy', distance: '2.1 mi', elevation: '190 ft', time: '55 min', image: 'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=85', description: 'An easy-going creekside walk with little elevation change, ideal for an unhurried morning outside.', coords: { latitude: 44.305, longitude: -83.946 } },
-  { id: 'eagle-peak', name: 'Eagle Peak Trail', difficulty: 'Hard', distance: '8.6 mi', elevation: '2,140 ft', time: '5h 20m', image: 'https://images.unsplash.com/photo-1483347756197-71ef80e95f73?auto=format&fit=crop&w=1200&q=85', description: 'A challenging summit climb with broad mountain views. Bring water, layers, and leave plenty of daylight for the return.', coords: { latitude: 44.247, longitude: -83.915 } },
-  { id: 'lakeview', name: 'Lakeview Overlook', difficulty: 'Easy', distance: '3.4 mi', elevation: '320 ft', time: '1h 25m', image: 'https://images.unsplash.com/photo-1439853949127-fa647821eba0?auto=format&fit=crop&w=1200&q=85', description: 'Follow a quiet forest track to a serene lakeside lookout with benches for a picnic or sunset stop.', coords: { latitude: 44.326, longitude: -83.99 } },
+  {
+    id: 'way-139929540', osmId: 139929540, name: 'New Richmond Swing Bridge', difficulty: 'Easy', distance: '0.11 km', elevation: '11 m', time: '2 min',
+    image: require('../../traildata/imgs/New-Richmond-Swing-Bridge-way-139929540.jpg'),
+    description: 'bridge in United States of America', coords: { latitude: 42.6514365, longitude: -86.106755 }, osmUrl: 'https://www.openstreetmap.org/way/139929540',
+    geometry: [{ latitude: 42.6509375, longitude: -86.1066273 }, { latitude: 42.6510703, longitude: -86.1066747 }, { latitude: 42.651661, longitude: -86.1068168 }, { latitude: 42.6519354, longitude: -86.1068827 }],
+  },
+  {
+    id: 'way-242747227', osmId: 242747227, name: 'Brookside Park Bridge', difficulty: 'Easy', distance: '0.03 km', elevation: '0 m', time: '1 min',
+    image: require('../../traildata/imgs/Brookside-Park-Bridge-way-242747227.png'),
+    description: 'Historic pedestrian bridge spanning Big Creek in Cleveland Metroparks, Cleveland, Ohio.', coords: { latitude: 41.4488755, longitude: -81.7172264 }, osmUrl: 'https://www.openstreetmap.org/way/242747227',
+    geometry: [{ latitude: 41.4488109, longitude: -81.7173789 }, { latitude: 41.4489401, longitude: -81.7170739 }],
+  },
+  {
+    id: 'way-327331027', osmId: 327331027, name: 'McKeown Road Bridge', difficulty: 'Easy', distance: '0.04 km', elevation: '0 m', time: '1 min',
+    image: require('../../traildata/imgs/McKeown-Road-Bridge-way-327331027.jpg'),
+    description: 'Wood-deck pedestrian bridge in Barry County, Michigan, suitable for foot traffic.', coords: { latitude: 42.6156837, longitude: -85.2363275 }, osmUrl: 'https://www.openstreetmap.org/way/327331027',
+    geometry: [{ latitude: 42.6155059, longitude: -85.2363287 }, { latitude: 42.6158614, longitude: -85.2363262 }],
+  },
+  {
+    id: 'way-352524292', osmId: 352524292, name: 'West Orange Road-Thomas Bridge', difficulty: 'Easy', distance: '0.06 km', elevation: '0 m', time: '1 min',
+    image: require('../../traildata/imgs/West-Orange-Road-Thomas-Bridge-way-352524292.jpg'),
+    description: 'bridge in United States of America', coords: { latitude: 40.1753378, longitude: -83.0455562 }, osmUrl: 'https://www.openstreetmap.org/way/352524292',
+    geometry: [{ latitude: 40.1753173, longitude: -83.0459355 }, { latitude: 40.1753582, longitude: -83.0451769 }],
+  },
 ];
 export const difficultyColor = { Easy: '#3D806A', Moderate: '#B36B16', Hard: '#B54F42' };
