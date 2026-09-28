@@ -1,0 +1,30 @@
+{
+  "type": "way",
+  "id": 327331027,
+  "bounds": {
+    "minlat": 42.6155059,
+    "minlon": -85.2363287,
+    "maxlat": 42.6158614,
+    "maxlon": -85.2363262
+  },
+  "geometry": [
+    {
+      "lat": 42.6155059,
+      "lon": -85.2363287
+    },
+    {
+      "lat": 42.6158614,
+      "lon": -85.2363262
+    }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "path",
+    "layer": "1",
+    "maxweight": "2.5 t",
+    "surface": "wood",
+    "tiger:cfcc": "A74",
+    "tiger:county": "Barry, MI",
+    "wikidata": "Q112225406"
+  }
+}

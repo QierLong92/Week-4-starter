@@ -1,0 +1,26 @@
+{
+  "type": "way",
+  "id": 242747227,
+  "bounds": {
+    "minlat": 41.4488109,
+    "minlon": -81.7173789,
+    "maxlat": 41.4489401,
+    "maxlon": -81.7170739
+  },
+  "geometry": [
+    {
+      "lat": 41.4488109,
+      "lon": -81.7173789
+    },
+    {
+      "lat": 41.4489401,
+      "lon": -81.7170739
+    }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "footway",
+    "layer": "1",
+    "wikidata": "Q122226885"
+  }
+}
